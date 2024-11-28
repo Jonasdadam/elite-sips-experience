@@ -1,4 +1,5 @@
 import { GlassWater } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -22,9 +23,12 @@ export const Hero = () => {
             <button className="bg-elite-gold text-elite-dark px-8 py-3 text-lg font-medium hover:bg-elite-gold/90 transition-all duration-300">
               Reserve a Table
             </button>
-            <button className="border border-elite-gold text-elite-gold px-8 py-3 text-lg font-medium hover:bg-elite-gold/10 transition-all duration-300">
+            <Link
+              to="/menu"
+              className="border border-elite-gold text-elite-gold px-8 py-3 text-lg font-medium hover:bg-elite-gold/10 transition-all duration-300 inline-block"
+            >
               View Menu
-            </button>
+            </Link>
           </div>
         </div>
       </div>
