@@ -2,23 +2,30 @@ import { GlassWater } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1439337153520-7082a56a81f4')] bg-cover bg-center opacity-30" />
-      <div className="absolute inset-0 bg-gradient-to-b from-elite-dark/90 to-elite-dark/70" />
-      <div className="container mx-auto px-4 z-10 animate-fade-in">
-        <div className="text-center">
-          <div className="flex items-center justify-center mb-6">
-            <GlassWater className="w-12 h-12 text-elite-gold mr-4" />
+    <div className="min-h-screen relative overflow-hidden">
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1470337458703-46ad1756a187')] bg-cover bg-fixed bg-center" />
+      <div className="absolute inset-0 bg-black/70" />
+      <div className="relative z-10 container mx-auto px-4 h-screen flex items-center justify-center">
+        <div className="text-center max-w-4xl mx-auto">
+          <div className="mb-8 flex justify-center">
+            <GlassWater className="h-16 w-16 text-elite-gold animate-pulse" />
           </div>
-          <h1 className="text-6xl md:text-8xl font-bold mb-8 gradient-text tracking-tight">
-            Elite Cocktails
+          <h1 className="text-7xl md:text-9xl font-bold mb-6 tracking-tighter">
+            <span className="gradient-text">Elite</span>
+            <br />
+            <span className="text-elite-cream">Cocktails</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-12 text-elite-cream/90 max-w-2xl mx-auto">
-            Where luxury meets mixology in the heart of Malta
+          <p className="text-xl md:text-2xl text-elite-cream/80 mb-12 font-light">
+            Crafting moments of pure sophistication
           </p>
-          <button className="bg-transparent border-2 border-elite-gold text-elite-gold px-8 py-4 rounded-none text-lg font-semibold hover:bg-elite-gold hover:text-elite-dark transition-all duration-300">
-            Experience Luxury
-          </button>
+          <div className="space-x-6">
+            <button className="bg-elite-gold text-elite-dark px-8 py-3 text-lg font-medium hover:bg-elite-gold/90 transition-all duration-300">
+              Reserve a Table
+            </button>
+            <button className="border border-elite-gold text-elite-gold px-8 py-3 text-lg font-medium hover:bg-elite-gold/10 transition-all duration-300">
+              View Menu
+            </button>
+          </div>
         </div>
       </div>
     </div>

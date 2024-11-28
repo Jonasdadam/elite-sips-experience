@@ -1,16 +1,27 @@
 export const About = () => {
   return (
     <div className="py-32 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1473177104440-ffee2f376098')] bg-cover bg-fixed opacity-10" />
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2')] bg-cover bg-fixed opacity-10" />
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-12 gradient-text">Our Legacy</h2>
-          <p className="text-xl text-elite-cream/80 mb-8 leading-relaxed">
-            In the heart of Malta's vibrant nightlife, Elite Cocktails stands as a testament to refined taste and masterful mixology. Our artisans craft each drink with precision and passion, using only the finest ingredients and innovative techniques.
-          </p>
-          <p className="text-xl text-elite-cream/80 leading-relaxed">
-            Step into our elegant space where modern luxury meets timeless hospitality. Every evening promises an unforgettable journey through sophisticated flavors and ambient excellence.
-          </p>
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-6xl font-bold mb-16">
+            <span className="gradient-text">Our</span>
+            <br />
+            <span className="text-elite-cream">Story</span>
+          </h2>
+          <div className="space-y-8 text-xl text-elite-cream/80 leading-relaxed">
+            <p>
+              Nestled in the heart of Malta's most prestigious district, Elite Cocktails 
+              represents the pinnacle of mixology artistry. Our master craftsmen blend 
+              tradition with innovation, creating experiences that transcend the ordinary.
+            </p>
+            <p>
+              Each evening, we transform premium spirits and carefully sourced ingredients 
+              into liquid masterpieces. Our commitment to excellence extends beyond the 
+              glass, creating an atmosphere where every detail contributes to an 
+              unforgettable journey of taste and refinement.
+            </p>
+          </div>
         </div>
       </div>
     </div>

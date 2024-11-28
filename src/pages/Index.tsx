@@ -5,10 +5,10 @@ import { Contact } from "@/components/Contact";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-gradient-to-b from-black via-elite-dark to-black">
       <Hero />
-      <About />
       <Featured />
+      <About />
       <Contact />
     </main>
   );
