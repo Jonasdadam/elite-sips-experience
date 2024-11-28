@@ -1,4 +1,4 @@
-import { Cocktail } from "lucide-react";
+import { Martini } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="container mx-auto px-4 z-10 animate-fade-in">
         <div className="text-center">
           <div className="flex items-center justify-center mb-6">
-            <Cocktail className="w-12 h-12 text-elite-gold mr-4" />
+            <Martini className="w-12 h-12 text-elite-gold mr-4" />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text">
             Elite Cocktails
